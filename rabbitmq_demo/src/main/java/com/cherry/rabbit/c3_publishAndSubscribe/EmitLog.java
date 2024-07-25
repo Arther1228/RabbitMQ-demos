@@ -7,6 +7,7 @@ import java.nio.charset.StandardCharsets;
 import java.util.Scanner;
 
 /**
+ * 发送消息
  * @author Chen Ruoyi
  * @date 2022/5/14 20:40
  */
