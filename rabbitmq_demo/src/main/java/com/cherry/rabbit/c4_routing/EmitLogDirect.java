@@ -19,7 +19,7 @@ public class EmitLogDirect {
     public static void main(String[] argv) throws Exception {
         try (Channel channel = RabbitUtil.getChannel()) {
             channel.exchangeDeclare(EXCHANGE_NAME, BuiltinExchangeType.DIRECT);
-//创建多个 bindingKey
+            //创建多个 bindingKey
             Map<String, String> bindingKeyMap = new HashMap<>();
             bindingKeyMap.put("info", "普通 info 信息");
             bindingKeyMap.put("warning", "警告 warning 信息");
